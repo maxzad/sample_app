@@ -44,6 +44,8 @@ GEM
     ansi (1.5.0)
     arel (9.0.0)
     bindex (0.5.0)
+    bootsnap (1.1.7)
+      msgpack (~> 1.0)
     builder (3.2.3)
     byebug (9.1.0)
     coderay (1.1.2)
@@ -103,6 +105,7 @@ GEM
       builder
       minitest (>= 5.0)
       ruby-progressbar
+    msgpack (1.2.0)
     multi_json (1.12.2)
     nenv (0.3.0)
     nio4r (2.2.0)
@@ -201,6 +204,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootsnap
   byebug
   coffee-rails
   guard
