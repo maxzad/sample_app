@@ -1,5 +1,12 @@
-<h1>Welcome to Sample App</h1>
-    <p>
+<div class="center jumbotron">
+<h1>Welcome to NurseLinked</h1>
+    <h2>
       This is the home page <a href="http://www.nurselinked.com"> where nurses can find relavant information regarding Open shifts around them</a>
     Click to see more.
-    </p>
+  </h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("logo.png", alt: "NurseLinked logo"),
+          'http://nurselinked.com/img/logo.png' %>
