@@ -18,11 +18,12 @@ gem 'bootsnap', require: false
 gem 'bootstrap-sass'
 
 group :development, :test do
-  gem 'sqlite3'
+  # gem 'sqlite3'
   gem 'byebug', platform: :mri
 end
 
 group :development do
+  gem 'sqlite3'
   gem 'web-console'
   gem 'listen'
   gem 'spring'
@@ -38,6 +39,7 @@ end
 
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
